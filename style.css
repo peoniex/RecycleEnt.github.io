@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.page1{
+    background-image: url(picture/pic-wallpaper.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+}
+
+.page2{
+    background-image: url(picture/pic-page2.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    overflow-y:hidden;
+}
+
+
+.mqttData{
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.page3{
+    background-image: url(picture/pic-page3.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    overflow-y:hidden;
+}
+
+.flex{
+    background-image: url(picture/pic-page4.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gloria Hallelujah", cursive;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+.numPan{
+    padding-top: 330px;
+    border-radius: 10 px;
+}
+.numPan .disp input{
+    font-family: "Gloria Hallelujah", cursive;
+    width: 200 px;
+    height: 200px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background: rgba(216, 18, 18, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 4.5em;
+}
+
+.numPan .nums > .r div{
+    font-family: "Gloria Hallelujah", cursive;
+    color: rgba(240, 248, 255, 0);
+    width: 140px;
+    height: 140px;
+    margin: 6px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.disp input{
+    width: 300 px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+.page5{
+    font-family: "Gloria Hallelujah", cursive;
+    background-image: url(picture/pic-page5.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#ID_Display{
+    font-size: 6em;
+    text-shadow: 5px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 5px 0 black, 0 5px rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: 310px; 
+    height: 150px; 
+    left: 370px; 
+    top: 190px; 
+    position: absolute; 
+    background: rgba(189, 18, 18, 0);
+}
+
+#Point_Display{
+    font-size: 7em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 270px; 
+    height: 150px; 
+    left: 380px; 
+    top: 390px; 
+    position: absolute; 
+    background: rgba(217, 217, 217, 0);
+}
+
+.PlayGame{
+    width: 400px; 
+    height: 180px; 
+    left: 160px; 
+    top: 800px; 
+    position: absolute; 
+    background: rgba(218, 9, 9, 0);
+}
+
+.NotPlayGame{
+    width: 170px; 
+    height: 90px; 
+    left: 280px; 
+    top: 1010px; 
+    position: absolute; 
+    background: rgba(218, 9, 9, 0);
+}
+
+#stuff{
+    width: 280px; 
+    height: 350px; 
+    left: 100px; 
+    top: 220px; 
+    position: absolute; 
+    background: rgba(164, 5, 5, 0);
+}
+
+#VideoGameDance{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.page6{
+    font-family: "Gloria Hallelujah", cursive;
+    background-image: url(picture/pic-page6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.BtnDanceGame{
+    width: 230px; 
+    height: 140px; 
+    left: 240px; 
+    top: 950px; 
+    position: absolute; 
+    background: rgba(218, 9, 9, 0);
+}
+
+.pageend{
+    background-image: url(picture/page-end.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#DancePointValue{
+    color: black;
+}
+
+.DancePoint{
+    font-family: "Gloria Hallelujah", cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    width: 220px; 
+    height: 150px; 
+    left: 0px; 
+    top: 40px; 
+    position: absolute; 
+    background: rgba(176, 31, 31, 0)
+}
+
+.page7{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.page8{
+    font-family: "Gloria Hallelujah", cursive;
+    background-image: url(picture/pic-page8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.EndBtn{
+    background: rgba(165, 42, 42, 0);
+    width: 380px;
+    height: 180px; 
+    left: 170px; 
+    top: 850px; 
+    position: absolute; 
+}
+
+#data-container{
+    background: rgba(165, 42, 42, 0);
+    width: 380px;
+    height: 130px; 
+    left: 170px; 
+    top: 730px; 
+    position: absolute; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+}

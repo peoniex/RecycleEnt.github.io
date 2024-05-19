@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>RECYCLE ENT.</title>
+</head>
+<body class="flex">
+    <a href="page3.html">
+        <div class="back" style="width: 150px; height: 150px; left: 0px; top: 0px; position: absolute; background: rgba(176, 31, 31, 0)"></div>
+    </a>
+    <div class="numPan">
+        <div class="disp">
+            <input type="number">
+        </div>
+        <div class="nums">
+            <div class="flex r r1">
+                <div><span>1</span></div>
+                <div><span>2</span></div>
+                <div><span>3</span></div>
+            </div>
+            <div class="flex r r2">
+                <div><span>4</span></div>
+                <div><span>5</span></div>
+                <div><span>6</span></div>
+            </div>
+            <div class="flex r r3">
+                <div><span>7</span></div>
+                <div><span>8</span></div>
+                <div><span>9</span></div>
+            </div>
+            <div class="flex r r4">
+                <div id="delete"></div>
+                <div><span>0</span></div>
+                <div id="correct"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        page4();
+        repage();
+    </script>
+</body>
+</html>
